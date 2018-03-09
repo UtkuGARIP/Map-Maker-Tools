@@ -1,32 +1,32 @@
-MapMakerTools
+Harita Üreticisi Aracı
 
 
-This is a mod for **The Long Dark** by Hinterland Studio, Inc.
+Hinterland Studio, Inc. **The Long Dark** için bir moddur.
 
 
-It adds commands to the [DeveloperConsole](https://github.com/FINDarkside/TLD-Developer-Console) that aid in mapping the terrain.
+Yer haritalandırılmasına yardımcı olan [Geliştirici Konsolu](https://github.com/FINDarkside/TLD-Developer-Console)'na komutlar ekler.
 
-Additional commands:
+Eklenen komutlar:
 
-* `MapMaking-NoTerrainError` - Produce the most accurate terrain rendering by forcing a very high LOD bias and base map distance, as well as the lowest pixel error. (The LOD bias will affect all objects)
-* `MapMaking-NoGrass` - Hide all grass
-* `MapMaking-FullGrass` - Set maximum grass density
-* `MapMaking-NoTrees` - Hide all trees and bushes, but not rosehips or tree stumps.
-* `MapMaking-FullTrees` - Increase tree drawing distance to maximum and never render them as billboards
-* `MapMaking-ToggleBloom` - Toggle the "AmplifyBloom" effect on/off
-* `MapMaking-ToggleContrast` - Toggle the "ContrastEnhance" effect on/off
-* `MapMaking-ToggleVignette` - Toggle the "VignetteAndChromaticAberration" effect on/off
-* `MapMaking-NoShadows` - Disable shadows completely
-* `MapMaking-ShadowDistance` - Set the shadow draw distance to the given parameter. This is rather experimental, since shadows start to disintegrate rather quickly when raising the draw distance.
+* `MapMaking-NoTerrainError` - En yüksek piksel hatası yanı sıra çok yüksek bir LOD yanlılığı ve baz harita mesafesini zorlayarak en doğru arazi render'ini üretin. (LOD yanlılığı tüm nesneleri etkileyecektir)
+* `MapMaking-NoGrass` - Tüm çimleri gizler
+* `MapMaking-FullGrass` - Maksimum çim yoğunluğunu ayarla
+* `MapMaking-NoTrees` - Kuşburnu veya ağaç kütüğü haricinde tüm ağaçları ve çalıları gizler.
+* `MapMaking-FullTrees` - Ağaç çizim mesafesini maksimum seviyeye çıkart ve asla reklam panolarını render etme.
+* `MapMaking-ToggleBloom` - AmplifyBloom efektini aç/kapat (Çimlerin büyümesi, gün döngüsü veya lamba parıltısı)
+* `MapMaking-ToggleContrast` - Kontrast İyileştirme efektini aç/kapat
+* `MapMaking-ToggleVignette` - VignetteAndChromaticAberration efektini aç/kapat
+* `MapMaking-NoShadows` - Gölgeleri tamamen devre dışı bırak
+* `MapMaking-ShadowDistance` - Verilen parametreye gölge çizim mesafesini ayarlayın. Bu oldukça deneyseldir, çünkü çizim mesafesini arttırırken gölgeler hızlı bir şekilde parçalanmaya başlar.
 * `MapMaking-None` - Do `MapMaking-NoTerrainError` + `MapMaking-NoGrass` + `MapMaking-NoTrees`
 * `MapMaking-Full` - Do `MapMaking-NoTerrainError` + `MapMaking-FullGrass` + `MapMaking-FullTrees`
-* `MapMaking-Reset` - Revert all settings back to the previously selected quality settings.
+* `MapMaking-Reset` - Tüm ayarları daha önce seçilen kalite ayarlarına geri döndür.
 
 * `FaithfulCartographer-ShowIncompleteRegions` - List regions that are still considered incomplete for the 'Faithful Cartographer' achievement
-* `FaithfulCartographer-ShowMissingPlacesInCurrentRegion` - List places in the current region that are still considered missing for the 'Faithful Cartographer' achievement
+* `FaithfulCartographer-ShowMissingPlacesInCurrentRegion` - Faithful Cartographer başarısı için eksik olan bölgeleri listele
 
 
-None of the settings will be persistent and revert back to the previously selected quality settings when changing scenes or closing the game.
+Ayarların hiçbiri kalıcı olmayacak ve sahneleri değiştirirken ya da oyunu kapatırken daha önce seçilen kalite ayarlarına geri dönecektir.
 
 
-Requires the [Mod Loader](https://github.com/zeobviouslyfakeacc/ModLoaderInstaller) to be used.
+Modun kurulumu için [Mod Yükleyici](https://github.com/zeobviouslyfakeacc/ModLoaderInstaller) gereklidir.
